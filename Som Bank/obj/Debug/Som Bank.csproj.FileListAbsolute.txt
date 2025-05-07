@@ -1,0 +1,19 @@
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\bin\Debug\Som Bank.exe.config
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\bin\Debug\Som Bank.exe
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\bin\Debug\Som Bank.pdb
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som Bank.csproj.AssemblyReference.cache
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Properties.Resources.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som Bank.csproj.GenerateResource.cache
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som Bank.csproj.CoreCompileInputs.cache
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som Bank.exe
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som Bank.pdb
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.login.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Main.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.new_acc.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Manage.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.View_acc.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Loading.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Deposite.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Transfer.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Withdraw.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Transaction.resources
