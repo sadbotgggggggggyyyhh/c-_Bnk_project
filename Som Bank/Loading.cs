@@ -44,12 +44,25 @@ namespace Som_Bank
             {
                 label1.Text = "Loading...";
             }
-            else if (panel2.Width >=600)
+            else if (panel2.Width >=670)
             {
                 timer1.Stop();
                 Form frm = new Main();
                 frm.Show();
+                
+
             }
+             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Loading_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

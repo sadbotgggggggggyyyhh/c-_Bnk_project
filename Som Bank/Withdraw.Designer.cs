@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Sach = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.accountXT = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.withdrawBTN = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -52,29 +52,32 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.Sach);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.accountXT);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.groupBox1.Location = new System.Drawing.Point(106, 171);
+            this.groupBox1.Location = new System.Drawing.Point(132, 231);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(611, 237);
             this.groupBox1.TabIndex = 141;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search For Accounts";
             // 
-            // button2
+            // Sach
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.button2.Location = new System.Drawing.Point(500, 104);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 41);
-            this.button2.TabIndex = 127;
-            this.button2.Text = "Search";
-            this.button2.UseVisualStyleBackColor = false;
+            this.Sach.BackColor = System.Drawing.Color.Transparent;
+            this.Sach.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
+            this.Sach.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Sach.FlatAppearance.BorderSize = 0;
+            this.Sach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sach.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.Sach.Location = new System.Drawing.Point(502, 105);
+            this.Sach.Name = "Sach";
+            this.Sach.Size = new System.Drawing.Size(103, 39);
+            this.Sach.TabIndex = 145;
+            this.Sach.Text = "Search";
+            this.Sach.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
@@ -90,37 +93,40 @@
             // accountXT
             // 
             this.accountXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.accountXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accountXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accountXT.Location = new System.Drawing.Point(219, 104);
             this.accountXT.Name = "accountXT";
-            this.accountXT.Size = new System.Drawing.Size(275, 30);
+            this.accountXT.Size = new System.Drawing.Size(275, 39);
             this.accountXT.TabIndex = 117;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.withdrawBTN);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.groupBox2.Location = new System.Drawing.Point(106, 509);
+            this.groupBox2.Location = new System.Drawing.Point(149, 564);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(611, 239);
             this.groupBox2.TabIndex = 142;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Deposite Amount";
             // 
-            // button3
+            // withdrawBTN
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.button3.Location = new System.Drawing.Point(331, 140);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 61);
-            this.button3.TabIndex = 129;
-            this.button3.Text = "Withdraw";
-            this.button3.UseVisualStyleBackColor = false;
+            this.withdrawBTN.BackColor = System.Drawing.Color.Transparent;
+            this.withdrawBTN.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
+            this.withdrawBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.withdrawBTN.FlatAppearance.BorderSize = 0;
+            this.withdrawBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.withdrawBTN.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.withdrawBTN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.withdrawBTN.Location = new System.Drawing.Point(346, 138);
+            this.withdrawBTN.Name = "withdrawBTN";
+            this.withdrawBTN.Size = new System.Drawing.Size(150, 54);
+            this.withdrawBTN.TabIndex = 144;
+            this.withdrawBTN.Text = "Withdraw";
+            this.withdrawBTN.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -152,7 +158,7 @@
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.textBox2);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.groupBox3.Location = new System.Drawing.Point(886, 144);
+            this.groupBox3.Location = new System.Drawing.Point(890, 231);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(816, 514);
             this.groupBox3.TabIndex = 143;
@@ -187,6 +193,7 @@
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(326, 333);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(393, 38);
             this.textBox4.TabIndex = 121;
             // 
@@ -207,6 +214,7 @@
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(326, 226);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(393, 38);
             this.textBox3.TabIndex = 119;
             // 
@@ -227,6 +235,7 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(326, 131);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(393, 38);
             this.textBox2.TabIndex = 117;
             // 
@@ -281,7 +290,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button withdrawBTN;
+        private System.Windows.Forms.Button Sach;
     }
 }

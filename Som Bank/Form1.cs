@@ -39,12 +39,32 @@ namespace Som_Bank
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label9.Text = DateTime.Now.ToString("HH:mm:ss");
-            label10.Text = DateTime.Now.ToString("dddd:dd:MMMM");
-            label11.Text = DateTime.Now.ToString("yyyy");
+           
 
 
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                pass.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                pass.UseSystemPasswordChar = true;
+            }
         }
     }
 }

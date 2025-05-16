@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manage));
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.jopXT = new System.Windows.Forms.TextBox();
@@ -50,8 +51,6 @@
             this.accountXT = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.nationXT = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.surenameXT = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lastnameXT = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -62,6 +61,7 @@
             this.firstnameXT = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.updateBTN = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -71,7 +71,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label18.Location = new System.Drawing.Point(421, 607);
+            this.label18.Location = new System.Drawing.Point(496, 665);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(159, 26);
             this.label18.TabIndex = 137;
@@ -82,7 +82,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label17.Location = new System.Drawing.Point(1076, 183);
+            this.label17.Location = new System.Drawing.Point(1229, 294);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(56, 26);
             this.label17.TabIndex = 136;
@@ -91,10 +91,10 @@
             // jopXT
             // 
             this.jopXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.jopXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.jopXT.Location = new System.Drawing.Point(1169, 601);
+            this.jopXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.jopXT.Location = new System.Drawing.Point(1322, 712);
             this.jopXT.Name = "jopXT";
-            this.jopXT.Size = new System.Drawing.Size(359, 30);
+            this.jopXT.Size = new System.Drawing.Size(387, 39);
             this.jopXT.TabIndex = 135;
             // 
             // label16
@@ -102,7 +102,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label16.Location = new System.Drawing.Point(1029, 602);
+            this.label16.Location = new System.Drawing.Point(1182, 713);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(125, 26);
             this.label16.TabIndex = 134;
@@ -111,10 +111,10 @@
             // inDepositeXT
             // 
             this.inDepositeXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.inDepositeXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inDepositeXT.Location = new System.Drawing.Point(592, 601);
+            this.inDepositeXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inDepositeXT.Location = new System.Drawing.Point(664, 658);
             this.inDepositeXT.Name = "inDepositeXT";
-            this.inDepositeXT.Size = new System.Drawing.Size(359, 30);
+            this.inDepositeXT.Size = new System.Drawing.Size(455, 39);
             this.inDepositeXT.TabIndex = 132;
             // 
             // label12
@@ -122,7 +122,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label12.Location = new System.Drawing.Point(998, 102);
+            this.label12.Location = new System.Drawing.Point(1151, 213);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(147, 26);
             this.label12.TabIndex = 131;
@@ -131,10 +131,10 @@
             // cityXT
             // 
             this.cityXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.cityXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cityXT.Location = new System.Drawing.Point(1169, 179);
+            this.cityXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityXT.Location = new System.Drawing.Point(1322, 290);
             this.cityXT.Name = "cityXT";
-            this.cityXT.Size = new System.Drawing.Size(359, 30);
+            this.cityXT.Size = new System.Drawing.Size(387, 39);
             this.cityXT.TabIndex = 130;
             // 
             // label13
@@ -142,7 +142,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label13.Location = new System.Drawing.Point(977, 518);
+            this.label13.Location = new System.Drawing.Point(1130, 629);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(168, 26);
             this.label13.TabIndex = 129;
@@ -151,10 +151,10 @@
             // cNameXT
             // 
             this.cNameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.cNameXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cNameXT.Location = new System.Drawing.Point(1169, 514);
+            this.cNameXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cNameXT.Location = new System.Drawing.Point(1322, 625);
             this.cNameXT.Name = "cNameXT";
-            this.cNameXT.Size = new System.Drawing.Size(359, 30);
+            this.cNameXT.Size = new System.Drawing.Size(387, 39);
             this.cNameXT.TabIndex = 128;
             // 
             // label10
@@ -162,7 +162,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label10.Location = new System.Drawing.Point(1070, 414);
+            this.label10.Location = new System.Drawing.Point(1223, 525);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(71, 26);
             this.label10.TabIndex = 127;
@@ -171,10 +171,10 @@
             // emailXT
             // 
             this.emailXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.emailXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailXT.Location = new System.Drawing.Point(1169, 413);
+            this.emailXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailXT.Location = new System.Drawing.Point(1322, 524);
             this.emailXT.Name = "emailXT";
-            this.emailXT.Size = new System.Drawing.Size(359, 30);
+            this.emailXT.Size = new System.Drawing.Size(387, 39);
             this.emailXT.TabIndex = 126;
             // 
             // label11
@@ -182,7 +182,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label11.Location = new System.Drawing.Point(1001, 345);
+            this.label11.Location = new System.Drawing.Point(1154, 456);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(159, 26);
             this.label11.TabIndex = 125;
@@ -191,10 +191,10 @@
             // numXT
             // 
             this.numXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.numXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numXT.Location = new System.Drawing.Point(1169, 344);
+            this.numXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numXT.Location = new System.Drawing.Point(1322, 455);
             this.numXT.Name = "numXT";
-            this.numXT.Size = new System.Drawing.Size(359, 30);
+            this.numXT.Size = new System.Drawing.Size(387, 39);
             this.numXT.TabIndex = 124;
             // 
             // label9
@@ -202,7 +202,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label9.Location = new System.Drawing.Point(430, 417);
+            this.label9.Location = new System.Drawing.Point(512, 485);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(143, 26);
             this.label9.TabIndex = 123;
@@ -211,11 +211,11 @@
             // femaleXT
             // 
             this.femaleXT.AutoSize = true;
-            this.femaleXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.femaleXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.femaleXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.femaleXT.Location = new System.Drawing.Point(748, 348);
+            this.femaleXT.Location = new System.Drawing.Point(820, 405);
             this.femaleXT.Name = "femaleXT";
-            this.femaleXT.Size = new System.Drawing.Size(89, 26);
+            this.femaleXT.Size = new System.Drawing.Size(116, 37);
             this.femaleXT.TabIndex = 122;
             this.femaleXT.TabStop = true;
             this.femaleXT.Text = "Female";
@@ -226,7 +226,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label8.Location = new System.Drawing.Point(462, 341);
+            this.label8.Location = new System.Drawing.Point(544, 402);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 26);
             this.label8.TabIndex = 121;
@@ -237,7 +237,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label7.Location = new System.Drawing.Point(1032, 267);
+            this.label7.Location = new System.Drawing.Point(1185, 378);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(94, 26);
             this.label7.TabIndex = 120;
@@ -246,10 +246,10 @@
             // addrXT
             // 
             this.addrXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.addrXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addrXT.Location = new System.Drawing.Point(1169, 266);
+            this.addrXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addrXT.Location = new System.Drawing.Point(1322, 377);
             this.addrXT.Name = "addrXT";
-            this.addrXT.Size = new System.Drawing.Size(359, 30);
+            this.addrXT.Size = new System.Drawing.Size(387, 39);
             this.addrXT.TabIndex = 119;
             // 
             // label6
@@ -266,10 +266,10 @@
             // accountXT
             // 
             this.accountXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.accountXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accountXT.Location = new System.Drawing.Point(199, 81);
+            this.accountXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accountXT.Location = new System.Drawing.Point(200, 81);
             this.accountXT.Name = "accountXT";
-            this.accountXT.Size = new System.Drawing.Size(172, 30);
+            this.accountXT.Size = new System.Drawing.Size(172, 39);
             this.accountXT.TabIndex = 117;
             // 
             // label5
@@ -277,7 +277,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label5.Location = new System.Drawing.Point(462, 510);
+            this.label5.Location = new System.Drawing.Point(536, 571);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(119, 26);
             this.label5.TabIndex = 116;
@@ -286,39 +286,18 @@
             // nationXT
             // 
             this.nationXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.nationXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nationXT.Location = new System.Drawing.Point(592, 514);
+            this.nationXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nationXT.Location = new System.Drawing.Point(664, 571);
             this.nationXT.Name = "nationXT";
-            this.nationXT.Size = new System.Drawing.Size(359, 30);
+            this.nationXT.Size = new System.Drawing.Size(455, 39);
             this.nationXT.TabIndex = 115;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label4.Location = new System.Drawing.Point(462, 262);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 26);
-            this.label4.TabIndex = 114;
-            this.label4.Text = "Surename:";
-            // 
-            // surenameXT
-            // 
-            this.surenameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.surenameXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.surenameXT.ForeColor = System.Drawing.Color.Black;
-            this.surenameXT.Location = new System.Drawing.Point(592, 266);
-            this.surenameXT.Name = "surenameXT";
-            this.surenameXT.Size = new System.Drawing.Size(359, 30);
-            this.surenameXT.TabIndex = 113;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label3.Location = new System.Drawing.Point(462, 179);
+            this.label3.Location = new System.Drawing.Point(539, 296);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 26);
             this.label3.TabIndex = 112;
@@ -327,11 +306,11 @@
             // lastnameXT
             // 
             this.lastnameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.lastnameXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastnameXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastnameXT.ForeColor = System.Drawing.Color.Black;
-            this.lastnameXT.Location = new System.Drawing.Point(592, 183);
+            this.lastnameXT.Location = new System.Drawing.Point(664, 289);
             this.lastnameXT.Name = "lastnameXT";
-            this.lastnameXT.Size = new System.Drawing.Size(359, 30);
+            this.lastnameXT.Size = new System.Drawing.Size(455, 39);
             this.lastnameXT.TabIndex = 111;
             // 
             // label2
@@ -339,7 +318,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label2.Location = new System.Drawing.Point(462, 97);
+            this.label2.Location = new System.Drawing.Point(535, 212);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 26);
             this.label2.TabIndex = 110;
@@ -347,10 +326,15 @@
             // 
             // DeleteBTN
             // 
-            this.DeleteBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.DeleteBTN.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeleteBTN.BackColor = System.Drawing.Color.Transparent;
+            this.DeleteBTN.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DeleteBTN.BackgroundImage")));
+            this.DeleteBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DeleteBTN.FlatAppearance.BorderSize = 0;
+            this.DeleteBTN.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.DeleteBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DeleteBTN.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBTN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.DeleteBTN.Location = new System.Drawing.Point(1142, 688);
+            this.DeleteBTN.Location = new System.Drawing.Point(948, 749);
             this.DeleteBTN.Name = "DeleteBTN";
             this.DeleteBTN.Size = new System.Drawing.Size(230, 78);
             this.DeleteBTN.TabIndex = 109;
@@ -360,19 +344,19 @@
             // typeXT
             // 
             this.typeXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.typeXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.typeXT.FormattingEnabled = true;
-            this.typeXT.Location = new System.Drawing.Point(1169, 101);
+            this.typeXT.Location = new System.Drawing.Point(1322, 212);
             this.typeXT.Name = "typeXT";
-            this.typeXT.Size = new System.Drawing.Size(359, 30);
+            this.typeXT.Size = new System.Drawing.Size(387, 39);
             this.typeXT.TabIndex = 108;
             // 
             // dateXT
             // 
-            this.dateXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateXT.Location = new System.Drawing.Point(592, 418);
+            this.dateXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateXT.Location = new System.Drawing.Point(664, 475);
             this.dateXT.Name = "dateXT";
-            this.dateXT.Size = new System.Drawing.Size(359, 30);
+            this.dateXT.Size = new System.Drawing.Size(455, 39);
             this.dateXT.TabIndex = 107;
             // 
             // maleXT
@@ -380,7 +364,7 @@
             this.maleXT.AutoSize = true;
             this.maleXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maleXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.maleXT.Location = new System.Drawing.Point(592, 348);
+            this.maleXT.Location = new System.Drawing.Point(674, 409);
             this.maleXT.Name = "maleXT";
             this.maleXT.Size = new System.Drawing.Size(72, 26);
             this.maleXT.TabIndex = 106;
@@ -391,55 +375,76 @@
             // firstnameXT
             // 
             this.firstnameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.firstnameXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstnameXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.firstnameXT.ForeColor = System.Drawing.Color.Black;
-            this.firstnameXT.Location = new System.Drawing.Point(592, 101);
+            this.firstnameXT.Location = new System.Drawing.Point(664, 207);
             this.firstnameXT.Name = "firstnameXT";
-            this.firstnameXT.Size = new System.Drawing.Size(359, 30);
+            this.firstnameXT.Size = new System.Drawing.Size(455, 39);
             this.firstnameXT.TabIndex = 105;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label1.Location = new System.Drawing.Point(34, 85);
+            this.label1.Location = new System.Drawing.Point(770, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(278, 37);
+            this.label1.Size = new System.Drawing.Size(320, 45);
             this.label1.TabIndex = 104;
-            this.label1.Text = "Manage Accounts:";
+            this.label1.Text = "Manage Accounts";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.accountXT);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.groupBox1.Location = new System.Drawing.Point(12, 243);
+            this.groupBox1.Location = new System.Drawing.Point(12, 317);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(388, 197);
+            this.groupBox1.Size = new System.Drawing.Size(496, 197);
             this.groupBox1.TabIndex = 138;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search For Accounts";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.button2.Location = new System.Drawing.Point(387, 81);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 39);
+            this.button2.TabIndex = 127;
+            this.button2.Text = "Search";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // updateBTN
             // 
-            this.updateBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.updateBTN.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateBTN.BackColor = System.Drawing.Color.Transparent;
+            this.updateBTN.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("updateBTN.BackgroundImage")));
+            this.updateBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.updateBTN.FlatAppearance.BorderSize = 0;
+            this.updateBTN.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.updateBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.updateBTN.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateBTN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.updateBTN.Location = new System.Drawing.Point(822, 688);
+            this.updateBTN.Location = new System.Drawing.Point(608, 749);
             this.updateBTN.Name = "updateBTN";
             this.updateBTN.Size = new System.Drawing.Size(230, 78);
-            this.updateBTN.TabIndex = 139;
+            this.updateBTN.TabIndex = 140;
             this.updateBTN.Text = "Update";
             this.updateBTN.UseVisualStyleBackColor = false;
-            this.updateBTN.Click += new System.EventHandler(this.updateBTN_Click);
             // 
             // Manage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(1775, 808);
+            this.ClientSize = new System.Drawing.Size(1775, 918);
             this.Controls.Add(this.updateBTN);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -461,8 +466,6 @@
             this.Controls.Add(this.addrXT);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.nationXT);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.surenameXT);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lastnameXT);
             this.Controls.Add(this.label2);
@@ -507,8 +510,6 @@
         private System.Windows.Forms.TextBox accountXT;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox nationXT;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox surenameXT;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox lastnameXT;
         private System.Windows.Forms.Label label2;
@@ -519,6 +520,7 @@
         private System.Windows.Forms.TextBox firstnameXT;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button updateBTN;
     }
 }
