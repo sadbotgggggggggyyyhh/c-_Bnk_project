@@ -1,2 +1,4 @@
 ".vs/" 
 '.vs/' 
+"**/.vs/"   # This catches all .vs folders at any level
+"**/.vs/"   # This catches all .vs folders at any level
