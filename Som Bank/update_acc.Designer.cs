@@ -37,7 +37,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.cityXT = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.cNameXT = new System.Windows.Forms.TextBox();
+            this.CnameXT = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.emailXT = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -48,7 +48,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.addrXT = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.accountXT = new System.Windows.Forms.TextBox();
+            this.acc_numXT = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.nationXT = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -56,7 +56,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.DeleteBTN = new System.Windows.Forms.Button();
             this.typeXT = new System.Windows.Forms.ComboBox();
-            this.dateXT = new System.Windows.Forms.DateTimePicker();
+            this.DateXT = new System.Windows.Forms.DateTimePicker();
             this.maleXT = new System.Windows.Forms.RadioButton();
             this.firstnameXT = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -148,14 +148,14 @@
             this.label13.TabIndex = 129;
             this.label13.Text = "Company Name:";
             // 
-            // cNameXT
+            // CnameXT
             // 
-            this.cNameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.cNameXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cNameXT.Location = new System.Drawing.Point(1322, 625);
-            this.cNameXT.Name = "cNameXT";
-            this.cNameXT.Size = new System.Drawing.Size(387, 39);
-            this.cNameXT.TabIndex = 128;
+            this.CnameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.CnameXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CnameXT.Location = new System.Drawing.Point(1322, 625);
+            this.CnameXT.Name = "CnameXT";
+            this.CnameXT.Size = new System.Drawing.Size(387, 39);
+            this.CnameXT.TabIndex = 128;
             // 
             // label10
             // 
@@ -263,14 +263,14 @@
             this.label6.TabIndex = 118;
             this.label6.Text = "Account Number:";
             // 
-            // accountXT
+            // acc_numXT
             // 
-            this.accountXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.accountXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accountXT.Location = new System.Drawing.Point(200, 81);
-            this.accountXT.Name = "accountXT";
-            this.accountXT.Size = new System.Drawing.Size(172, 39);
-            this.accountXT.TabIndex = 117;
+            this.acc_numXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.acc_numXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.acc_numXT.Location = new System.Drawing.Point(200, 81);
+            this.acc_numXT.Name = "acc_numXT";
+            this.acc_numXT.Size = new System.Drawing.Size(172, 39);
+            this.acc_numXT.TabIndex = 117;
             // 
             // label5
             // 
@@ -340,6 +340,7 @@
             this.DeleteBTN.TabIndex = 109;
             this.DeleteBTN.Text = "Delete";
             this.DeleteBTN.UseVisualStyleBackColor = false;
+            this.DeleteBTN.Click += new System.EventHandler(this.DeleteBTN_Click);
             // 
             // typeXT
             // 
@@ -351,13 +352,13 @@
             this.typeXT.Size = new System.Drawing.Size(387, 39);
             this.typeXT.TabIndex = 108;
             // 
-            // dateXT
+            // DateXT
             // 
-            this.dateXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateXT.Location = new System.Drawing.Point(664, 475);
-            this.dateXT.Name = "dateXT";
-            this.dateXT.Size = new System.Drawing.Size(455, 39);
-            this.dateXT.TabIndex = 107;
+            this.DateXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DateXT.Location = new System.Drawing.Point(664, 475);
+            this.DateXT.Name = "DateXT";
+            this.DateXT.Size = new System.Drawing.Size(455, 39);
+            this.DateXT.TabIndex = 107;
             // 
             // maleXT
             // 
@@ -397,7 +398,7 @@
             // 
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.accountXT);
+            this.groupBox1.Controls.Add(this.acc_numXT);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.groupBox1.Location = new System.Drawing.Point(12, 317);
             this.groupBox1.Name = "groupBox1";
@@ -421,6 +422,7 @@
             this.button2.TabIndex = 127;
             this.button2.Text = "Search";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // updateBTN
             // 
@@ -438,6 +440,7 @@
             this.updateBTN.TabIndex = 140;
             this.updateBTN.Text = "Update";
             this.updateBTN.UseVisualStyleBackColor = false;
+            this.updateBTN.Click += new System.EventHandler(this.updateBTN_Click_1);
             // 
             // Manage
             // 
@@ -454,7 +457,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.cityXT);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.cNameXT);
+            this.Controls.Add(this.CnameXT);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.emailXT);
             this.Controls.Add(this.label11);
@@ -471,7 +474,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DeleteBTN);
             this.Controls.Add(this.typeXT);
-            this.Controls.Add(this.dateXT);
+            this.Controls.Add(this.DateXT);
             this.Controls.Add(this.maleXT);
             this.Controls.Add(this.firstnameXT);
             this.Controls.Add(this.label1);
@@ -496,7 +499,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox cityXT;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox cNameXT;
+        private System.Windows.Forms.TextBox CnameXT;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox emailXT;
         private System.Windows.Forms.Label label11;
@@ -507,7 +510,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox addrXT;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox accountXT;
+        private System.Windows.Forms.TextBox acc_numXT;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox nationXT;
         private System.Windows.Forms.Label label3;
@@ -515,7 +518,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button DeleteBTN;
         private System.Windows.Forms.ComboBox typeXT;
-        private System.Windows.Forms.DateTimePicker dateXT;
+        private System.Windows.Forms.DateTimePicker DateXT;
         private System.Windows.Forms.RadioButton maleXT;
         private System.Windows.Forms.TextBox firstnameXT;
         private System.Windows.Forms.Label label1;

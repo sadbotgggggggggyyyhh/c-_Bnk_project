@@ -33,41 +33,41 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBoxFilePath2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.p_noXT = new System.Windows.Forms.TextBox();
+            this.pNnoXT = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.nameXT = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.acc_noXT = new System.Windows.Forms.TextBox();
+            this.accNoXT = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.ID_XT = new System.Windows.Forms.TextBox();
+            this.IDXT = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.durationXT = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.amountXT = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.puposeXT = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.installmentsXT = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.textBoxFilePath3 = new System.Windows.Forms.TextBox();
             this.textBoxFilePath1 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pNoXXT = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.nameXXT = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.accXXt = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.IDXXT = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -89,16 +89,16 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.textBoxFilePath2);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.p_noXT);
+            this.groupBox1.Controls.Add(this.pNnoXT);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.nameXT);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.acc_noXT);
+            this.groupBox1.Controls.Add(this.accNoXT);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.ID_XT);
+            this.groupBox1.Controls.Add(this.IDXT);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.groupBox1.Location = new System.Drawing.Point(15, 25);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(637, 273);
             this.groupBox1.TabIndex = 150;
@@ -145,14 +145,15 @@
             this.label10.TabIndex = 146;
             this.label10.Text = "Bank Statement:";
             // 
-            // p_noXT
+            // pNnoXT
             // 
-            this.p_noXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.p_noXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.p_noXT.Location = new System.Drawing.Point(170, 117);
-            this.p_noXT.Name = "p_noXT";
-            this.p_noXT.Size = new System.Drawing.Size(454, 30);
-            this.p_noXT.TabIndex = 125;
+            this.pNnoXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.pNnoXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pNnoXT.Location = new System.Drawing.Point(170, 117);
+            this.pNnoXT.Name = "pNnoXT";
+            this.pNnoXT.Size = new System.Drawing.Size(454, 30);
+            this.pNnoXT.TabIndex = 125;
+            this.pNnoXT.TextChanged += new System.EventHandler(this.p_noXT_TextChanged);
             // 
             // label1
             // 
@@ -185,14 +186,14 @@
             this.label2.TabIndex = 120;
             this.label2.Text = "Full Name:";
             // 
-            // acc_noXT
+            // accNoXT
             // 
-            this.acc_noXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.acc_noXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.acc_noXT.Location = new System.Drawing.Point(170, 67);
-            this.acc_noXT.Name = "acc_noXT";
-            this.acc_noXT.Size = new System.Drawing.Size(454, 30);
-            this.acc_noXT.TabIndex = 121;
+            this.accNoXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.accNoXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accNoXT.Location = new System.Drawing.Point(170, 67);
+            this.accNoXT.Name = "accNoXT";
+            this.accNoXT.Size = new System.Drawing.Size(454, 30);
+            this.accNoXT.TabIndex = 121;
             // 
             // label6
             // 
@@ -216,43 +217,68 @@
             this.label3.TabIndex = 122;
             this.label3.Text = "Account No:";
             // 
-            // ID_XT
+            // IDXT
             // 
-            this.ID_XT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.ID_XT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ID_XT.Location = new System.Drawing.Point(170, 168);
-            this.ID_XT.Name = "ID_XT";
-            this.ID_XT.Size = new System.Drawing.Size(454, 30);
-            this.ID_XT.TabIndex = 123;
+            this.IDXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.IDXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDXT.Location = new System.Drawing.Point(170, 168);
+            this.IDXT.Name = "IDXT";
+            this.IDXT.Size = new System.Drawing.Size(454, 30);
+            this.IDXT.TabIndex = 123;
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.durationXT);
             this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Controls.Add(this.textBox6);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.amountXT);
             this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.puposeXT);
             this.groupBox3.Controls.Add(this.label15);
             this.groupBox3.Controls.Add(this.label16);
-            this.groupBox3.Controls.Add(this.textBox9);
+            this.groupBox3.Controls.Add(this.installmentsXT);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.groupBox3.Location = new System.Drawing.Point(229, 304);
+            this.groupBox3.Location = new System.Drawing.Point(229, 312);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(1245, 200);
             this.groupBox3.TabIndex = 151;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Loan info";
             // 
-            // textBox6
+            // durationXT
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(984, 24);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(160, 30);
-            this.textBox6.TabIndex = 125;
+            this.durationXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.durationXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.durationXT.FormattingEnabled = true;
+            this.durationXT.Items.AddRange(new object[] {
+            "6",
+            "12",
+            "18",
+            "24"});
+            this.durationXT.Location = new System.Drawing.Point(1070, 27);
+            this.durationXT.Name = "durationXT";
+            this.durationXT.Size = new System.Drawing.Size(115, 30);
+            this.durationXT.TabIndex = 154;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.button3.Location = new System.Drawing.Point(837, 124);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(178, 60);
+            this.button3.TabIndex = 153;
+            this.button3.Text = "Record Payments";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -271,6 +297,7 @@
             this.button2.TabIndex = 145;
             this.button2.Text = "Save";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label13
             // 
@@ -279,18 +306,18 @@
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.label13.Location = new System.Drawing.Point(887, 27);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(91, 25);
+            this.label13.Size = new System.Drawing.Size(177, 25);
             this.label13.TabIndex = 126;
-            this.label13.Text = "Duration:";
+            this.label13.Text = "DurationIn Months:";
             // 
-            // textBox7
+            // amountXT
             // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(170, 26);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(155, 30);
-            this.textBox7.TabIndex = 119;
+            this.amountXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.amountXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amountXT.Location = new System.Drawing.Point(170, 26);
+            this.amountXT.Name = "amountXT";
+            this.amountXT.Size = new System.Drawing.Size(155, 30);
+            this.amountXT.TabIndex = 119;
             // 
             // label14
             // 
@@ -303,14 +330,14 @@
             this.label14.TabIndex = 120;
             this.label14.Text = "Amount:";
             // 
-            // textBox8
+            // puposeXT
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(605, 24);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(155, 30);
-            this.textBox8.TabIndex = 121;
+            this.puposeXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.puposeXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.puposeXT.Location = new System.Drawing.Point(605, 24);
+            this.puposeXT.Name = "puposeXT";
+            this.puposeXT.Size = new System.Drawing.Size(155, 30);
+            this.puposeXT.TabIndex = 121;
             // 
             // label15
             // 
@@ -334,14 +361,14 @@
             this.label16.TabIndex = 122;
             this.label16.Text = "Purpose:";
             // 
-            // textBox9
+            // installmentsXT
             // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(572, 90);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(241, 30);
-            this.textBox9.TabIndex = 123;
+            this.installmentsXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.installmentsXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.installmentsXT.Location = new System.Drawing.Point(572, 90);
+            this.installmentsXT.Name = "installmentsXT";
+            this.installmentsXT.Size = new System.Drawing.Size(241, 30);
+            this.installmentsXT.TabIndex = 123;
             // 
             // groupBox2
             // 
@@ -351,21 +378,59 @@
             this.groupBox2.Controls.Add(this.textBoxFilePath1);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.pNoXXT);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.nameXXT);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.accXXt);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.IDXXT);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.groupBox2.Location = new System.Drawing.Point(1000, 25);
+            this.groupBox2.Location = new System.Drawing.Point(1003, 9);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(669, 273);
             this.groupBox2.TabIndex = 152;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Co-signer info";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.button4.Location = new System.Drawing.Point(532, 242);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(104, 29);
+            this.button4.TabIndex = 153;
+            this.button4.Text = "Browse";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.button6.Location = new System.Drawing.Point(191, 242);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(104, 29);
+            this.button6.TabIndex = 151;
+            this.button6.Text = "Browse";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // textBoxFilePath3
             // 
@@ -373,7 +438,7 @@
             this.textBoxFilePath3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxFilePath3.Location = new System.Drawing.Point(516, 206);
             this.textBoxFilePath3.Name = "textBoxFilePath3";
-            this.textBoxFilePath3.Size = new System.Drawing.Size(139, 30);
+            this.textBoxFilePath3.Size = new System.Drawing.Size(147, 30);
             this.textBoxFilePath3.TabIndex = 150;
             this.textBoxFilePath3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -383,7 +448,7 @@
             this.textBoxFilePath1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxFilePath1.Location = new System.Drawing.Point(171, 209);
             this.textBoxFilePath1.Name = "textBoxFilePath1";
-            this.textBoxFilePath1.Size = new System.Drawing.Size(139, 30);
+            this.textBoxFilePath1.Size = new System.Drawing.Size(157, 30);
             this.textBoxFilePath1.TabIndex = 149;
             this.textBoxFilePath1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -403,20 +468,20 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.label4.Location = new System.Drawing.Point(8, 215);
+            this.label4.Location = new System.Drawing.Point(6, 209);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(157, 25);
             this.label4.TabIndex = 146;
             this.label4.Text = "Bank Statement:";
             // 
-            // textBox1
+            // pNoXXT
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(170, 117);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(454, 30);
-            this.textBox1.TabIndex = 125;
+            this.pNoXXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.pNoXXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pNoXXT.Location = new System.Drawing.Point(170, 117);
+            this.pNoXXT.Name = "pNoXXT";
+            this.pNoXXT.Size = new System.Drawing.Size(493, 30);
+            this.pNoXXT.TabIndex = 125;
             // 
             // label7
             // 
@@ -429,14 +494,14 @@
             this.label7.TabIndex = 126;
             this.label7.Text = "Phone No:";
             // 
-            // textBox2
+            // nameXXT
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(170, 21);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(454, 30);
-            this.textBox2.TabIndex = 119;
+            this.nameXXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.nameXXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameXXT.Location = new System.Drawing.Point(170, 21);
+            this.nameXXT.Name = "nameXXT";
+            this.nameXXT.Size = new System.Drawing.Size(493, 30);
+            this.nameXXT.TabIndex = 119;
             // 
             // label8
             // 
@@ -449,14 +514,14 @@
             this.label8.TabIndex = 120;
             this.label8.Text = "Full Name:";
             // 
-            // textBox3
+            // accXXt
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(170, 67);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(454, 30);
-            this.textBox3.TabIndex = 121;
+            this.accXXt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.accXXt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accXXt.Location = new System.Drawing.Point(170, 67);
+            this.accXXt.Name = "accXXt";
+            this.accXXt.Size = new System.Drawing.Size(493, 30);
+            this.accXXt.TabIndex = 121;
             // 
             // label9
             // 
@@ -480,73 +545,18 @@
             this.label11.TabIndex = 122;
             this.label11.Text = "Account No:";
             // 
-            // textBox4
+            // IDXXT
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(170, 168);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(454, 30);
-            this.textBox4.TabIndex = 123;
+            this.IDXXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.IDXXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDXXT.Location = new System.Drawing.Point(170, 168);
+            this.IDXXT.Name = "IDXXT";
+            this.IDXXT.Size = new System.Drawing.Size(493, 30);
+            this.IDXXT.TabIndex = 123;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.button3.Location = new System.Drawing.Point(837, 124);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(178, 60);
-            this.button3.TabIndex = 153;
-            this.button3.Text = "Record Payments";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.button6.Location = new System.Drawing.Point(170, 243);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(104, 29);
-            this.button6.TabIndex = 151;
-            this.button6.Text = "Browse";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.button4.Location = new System.Drawing.Point(532, 242);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 29);
-            this.button4.TabIndex = 153;
-            this.button4.Text = "Browse";
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // loan1
             // 
@@ -578,40 +588,40 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBoxFilePath2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox p_noXT;
+        private System.Windows.Forms.TextBox pNnoXT;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox nameXT;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox acc_noXT;
+        private System.Windows.Forms.TextBox accNoXT;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox ID_XT;
+        private System.Windows.Forms.TextBox IDXT;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox amountXT;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox puposeXT;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox installmentsXT;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBoxFilePath3;
         private System.Windows.Forms.TextBox textBoxFilePath1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox pNoXXT;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox nameXXT;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox accXXt;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox IDXXT;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ComboBox durationXT;
     }
 }

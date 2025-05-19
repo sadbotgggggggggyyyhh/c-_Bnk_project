@@ -36,11 +36,11 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.balanceXT = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lastnameXT = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.firstnameXT = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -77,6 +77,7 @@
             this.checkBTN.TabIndex = 146;
             this.checkBTN.Text = "Check";
             this.checkBTN.UseVisualStyleBackColor = false;
+            this.checkBTN.Click += new System.EventHandler(this.checkBTN_Click);
             // 
             // label13
             // 
@@ -113,11 +114,11 @@
             // 
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.balanceXT);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.lastnameXT);
             this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.textBox2);
+            this.groupBox3.Controls.Add(this.firstnameXT);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.groupBox3.Location = new System.Drawing.Point(274, 521);
             this.groupBox3.Name = "groupBox3";
@@ -148,15 +149,15 @@
             this.label4.TabIndex = 122;
             this.label4.Text = "Current Balance:";
             // 
-            // textBox4
+            // balanceXT
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(431, 282);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(603, 38);
-            this.textBox4.TabIndex = 121;
+            this.balanceXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.balanceXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.balanceXT.Location = new System.Drawing.Point(431, 282);
+            this.balanceXT.Name = "balanceXT";
+            this.balanceXT.ReadOnly = true;
+            this.balanceXT.Size = new System.Drawing.Size(603, 38);
+            this.balanceXT.TabIndex = 121;
             // 
             // label3
             // 
@@ -169,15 +170,15 @@
             this.label3.TabIndex = 120;
             this.label3.Text = "Last Name:";
             // 
-            // textBox3
+            // lastnameXT
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(431, 223);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(603, 38);
-            this.textBox3.TabIndex = 119;
+            this.lastnameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.lastnameXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastnameXT.Location = new System.Drawing.Point(431, 223);
+            this.lastnameXT.Name = "lastnameXT";
+            this.lastnameXT.ReadOnly = true;
+            this.lastnameXT.Size = new System.Drawing.Size(603, 38);
+            this.lastnameXT.TabIndex = 119;
             // 
             // label2
             // 
@@ -190,15 +191,15 @@
             this.label2.TabIndex = 118;
             this.label2.Text = "Frst Name:";
             // 
-            // textBox2
+            // firstnameXT
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(431, 164);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(603, 38);
-            this.textBox2.TabIndex = 117;
+            this.firstnameXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.firstnameXT.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstnameXT.Location = new System.Drawing.Point(431, 164);
+            this.firstnameXT.Name = "firstnameXT";
+            this.firstnameXT.ReadOnly = true;
+            this.firstnameXT.Size = new System.Drawing.Size(603, 38);
+            this.firstnameXT.TabIndex = 117;
             // 
             // label5
             // 
@@ -240,11 +241,11 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox balanceXT;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox lastnameXT;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox firstnameXT;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button checkBTN;
     }

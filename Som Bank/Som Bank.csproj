@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="check_balance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,12 @@
     <Compile Include="payments.Designer.cs">
       <DependentUpon>payments.cs</DependentUpon>
     </Compile>
+    <Compile Include="permit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="permit.Designer.cs">
+      <DependentUpon>permit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transaction.cs">
@@ -120,6 +132,12 @@
     <Compile Include="update_acc.Designer.cs">
       <DependentUpon>update_acc.cs</DependentUpon>
     </Compile>
+    <Compile Include="users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users.Designer.cs">
+      <DependentUpon>users.cs</DependentUpon>
+    </Compile>
     <Compile Include="View_acc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +150,9 @@
     <Compile Include="Withdraw.Designer.cs">
       <DependentUpon>Withdraw.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="check_balance.resx">
       <DependentUpon>check_balance.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +180,9 @@
     <EmbeddedResource Include="payments.resx">
       <DependentUpon>payments.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="permit.resx">
+      <DependentUpon>permit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -177,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="update_acc.resx">
       <DependentUpon>update_acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users.resx">
+      <DependentUpon>users.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View_acc.resx">
       <DependentUpon>View_acc.cs</DependentUpon>

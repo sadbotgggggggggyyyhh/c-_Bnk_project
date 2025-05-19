@@ -21,3 +21,6 @@ C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.check_balance.resourc
 C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.Loans.resources
 C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.payments.resources
 C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.loan1.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.admin.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.permit.resources
+C:\Users\Abdi\Desktop\Som Bank\Som Bank\obj\Debug\Som_Bank.users.resources

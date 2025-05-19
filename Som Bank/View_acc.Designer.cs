@@ -90,6 +90,7 @@
             this.Controls.Add(this.Table);
             this.Name = "View_acc";
             this.Text = "View_acc";
+            this.Load += new System.EventHandler(this.View_acc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Table)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -37,6 +38,17 @@ namespace Som_Bank
         private void button3_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void Loans_Load(object sender, EventArgs e)
+        {
+            string constring = "Data Source=DESKTOP-LIPS9UU\\SQLEXPRESS;Initial Catalog=sombank;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            SqlConnection con = new SqlConnection(constring);
+            con.Open();
+            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM Loans", con);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            Table.DataSource = dt;
         }
     }
 }

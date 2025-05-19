@@ -89,6 +89,7 @@
             this.Controls.Add(this.Table);
             this.Name = "Loans";
             this.Text = "Loans";
+            this.Load += new System.EventHandler(this.Loans_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Table)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

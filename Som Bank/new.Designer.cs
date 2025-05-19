@@ -111,6 +111,7 @@
             this.inDepositeXT.Name = "inDepositeXT";
             this.inDepositeXT.Size = new System.Drawing.Size(454, 39);
             this.inDepositeXT.TabIndex = 132;
+            this.inDepositeXT.Text = "0";
             // 
             // label12
             // 
@@ -323,6 +324,9 @@
             this.typeXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.typeXT.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.typeXT.FormattingEnabled = true;
+            this.typeXT.Items.AddRange(new object[] {
+            "Bussiness",
+            "Saving"});
             this.typeXT.Location = new System.Drawing.Point(1087, 191);
             this.typeXT.Name = "typeXT";
             this.typeXT.Size = new System.Drawing.Size(454, 39);
@@ -386,6 +390,7 @@
             this.createBTN.TabIndex = 138;
             this.createBTN.Text = "Create";
             this.createBTN.UseVisualStyleBackColor = false;
+            this.createBTN.Click += new System.EventHandler(this.createBTN_Click_1);
             // 
             // new_acc
             // 

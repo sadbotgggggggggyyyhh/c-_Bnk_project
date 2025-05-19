@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label2 = new System.Windows.Forms.Label();
-            this.searchXT = new System.Windows.Forms.TextBox();
+            this.searchAccount = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Table = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateXT = new System.Windows.Forms.DateTimePicker();
+            this.fromDate = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
-            this.typeXT = new System.Windows.Forms.ComboBox();
+            this.typeComboBox = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.toDate = new System.Windows.Forms.DateTimePicker();
             this.rpt = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Table)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,15 +55,15 @@
             this.label2.TabIndex = 117;
             this.label2.Text = "Account Number:";
             // 
-            // searchXT
+            // searchAccount
             // 
-            this.searchXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.searchXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchXT.Location = new System.Drawing.Point(658, 140);
-            this.searchXT.Name = "searchXT";
-            this.searchXT.Size = new System.Drawing.Size(181, 30);
-            this.searchXT.TabIndex = 116;
-            this.searchXT.Tag = "search";
+            this.searchAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.searchAccount.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchAccount.Location = new System.Drawing.Point(658, 140);
+            this.searchAccount.Name = "searchAccount";
+            this.searchAccount.Size = new System.Drawing.Size(181, 30);
+            this.searchAccount.TabIndex = 116;
+            this.searchAccount.Tag = "search";
             // 
             // label1
             // 
@@ -76,7 +78,7 @@
             // 
             // Table
             // 
-            this.Table.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Table.BackgroundColor = System.Drawing.Color.White;
             this.Table.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Table.GridColor = System.Drawing.Color.White;
@@ -99,13 +101,13 @@
             this.label9.TabIndex = 125;
             this.label9.Text = "From:";
             // 
-            // dateXT
+            // fromDate
             // 
-            this.dateXT.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateXT.Location = new System.Drawing.Point(947, 142);
-            this.dateXT.Name = "dateXT";
-            this.dateXT.Size = new System.Drawing.Size(275, 27);
-            this.dateXT.TabIndex = 124;
+            this.fromDate.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fromDate.Location = new System.Drawing.Point(947, 142);
+            this.fromDate.Name = "fromDate";
+            this.fromDate.Size = new System.Drawing.Size(275, 27);
+            this.fromDate.TabIndex = 124;
             // 
             // label12
             // 
@@ -118,20 +120,20 @@
             this.label12.TabIndex = 133;
             this.label12.Text = "Transaction Type:";
             // 
-            // typeXT
+            // typeComboBox
             // 
-            this.typeXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.typeXT.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeXT.FormattingEnabled = true;
-            this.typeXT.Items.AddRange(new object[] {
+            this.typeComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
+            this.typeComboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeComboBox.FormattingEnabled = true;
+            this.typeComboBox.Items.AddRange(new object[] {
             "All",
             "Withdrawals",
             "Deposits",
             "Transfers"});
-            this.typeXT.Location = new System.Drawing.Point(212, 141);
-            this.typeXT.Name = "typeXT";
-            this.typeXT.Size = new System.Drawing.Size(185, 30);
-            this.typeXT.TabIndex = 132;
+            this.typeComboBox.Location = new System.Drawing.Point(212, 141);
+            this.typeComboBox.Name = "typeComboBox";
+            this.typeComboBox.Size = new System.Drawing.Size(185, 30);
+            this.typeComboBox.TabIndex = 132;
             // 
             // label3
             // 
@@ -144,13 +146,13 @@
             this.label3.TabIndex = 135;
             this.label3.Text = "To:";
             // 
-            // dateTimePicker1
+            // toDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(1285, 143);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(270, 27);
-            this.dateTimePicker1.TabIndex = 134;
+            this.toDate.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toDate.Location = new System.Drawing.Point(1285, 143);
+            this.toDate.Name = "toDate";
+            this.toDate.Size = new System.Drawing.Size(270, 27);
+            this.toDate.TabIndex = 134;
             // 
             // rpt
             // 
@@ -161,12 +163,19 @@
             this.rpt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rpt.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rpt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
-            this.rpt.Location = new System.Drawing.Point(1611, 134);
+            this.rpt.Location = new System.Drawing.Point(1581, 136);
             this.rpt.Name = "rpt";
             this.rpt.Size = new System.Drawing.Size(103, 39);
             this.rpt.TabIndex = 146;
             this.rpt.Text = "Report";
             this.rpt.UseVisualStyleBackColor = false;
+            this.rpt.Click += new System.EventHandler(this.rpt_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Transaction
             // 
@@ -176,13 +185,13 @@
             this.ClientSize = new System.Drawing.Size(1775, 808);
             this.Controls.Add(this.rpt);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.toDate);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.typeXT);
+            this.Controls.Add(this.typeComboBox);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.dateXT);
+            this.Controls.Add(this.fromDate);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.searchXT);
+            this.Controls.Add(this.searchAccount);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Table);
             this.Name = "Transaction";
@@ -196,15 +205,16 @@
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox searchXT;
+        private System.Windows.Forms.TextBox searchAccount;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView Table;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateXT;
+        private System.Windows.Forms.DateTimePicker fromDate;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox typeXT;
+        private System.Windows.Forms.ComboBox typeComboBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker toDate;
         private System.Windows.Forms.Button rpt;
+        private System.Windows.Forms.Timer timer1;
     }
 }

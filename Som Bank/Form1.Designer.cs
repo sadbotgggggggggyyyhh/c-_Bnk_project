@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
             this.user = new System.Windows.Forms.TextBox();
             this.pass = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.role = new System.Windows.Forms.ComboBox();
+            this.loginBTN = new System.Windows.Forms.Button();
+            this.role1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -61,35 +61,36 @@
             this.pass.TabIndex = 1;
             this.pass.UseSystemPasswordChar = true;
             // 
-            // button1
+            // loginBTN
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.Location = new System.Drawing.Point(629, 369);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 46);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = false;
+            this.loginBTN.BackColor = System.Drawing.Color.Transparent;
+            this.loginBTN.BackgroundImage = global::Som_Bank.Properties.Resources.button1;
+            this.loginBTN.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.loginBTN.FlatAppearance.BorderSize = 0;
+            this.loginBTN.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.loginBTN.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.loginBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loginBTN.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginBTN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.loginBTN.Location = new System.Drawing.Point(629, 369);
+            this.loginBTN.Name = "loginBTN";
+            this.loginBTN.Size = new System.Drawing.Size(154, 46);
+            this.loginBTN.TabIndex = 2;
+            this.loginBTN.Text = "Login";
+            this.loginBTN.UseVisualStyleBackColor = false;
+            this.loginBTN.Click += new System.EventHandler(this.button1_Click);
             // 
-            // role
+            // role1
             // 
-            this.role.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.role.FormattingEnabled = true;
-            this.role.Items.AddRange(new object[] {
+            this.role1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.role1.FormattingEnabled = true;
+            this.role1.Items.AddRange(new object[] {
+            "Manager",
             "Employee"});
-            this.role.Location = new System.Drawing.Point(605, 195);
-            this.role.Name = "role";
-            this.role.Size = new System.Drawing.Size(194, 34);
-            this.role.TabIndex = 3;
-            this.role.Text = "Manager";
+            this.role1.Location = new System.Drawing.Point(605, 195);
+            this.role1.Name = "role1";
+            this.role1.Size = new System.Drawing.Size(194, 34);
+            this.role1.TabIndex = 3;
             // 
             // label2
             // 
@@ -194,8 +195,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.role);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.role1);
+            this.Controls.Add(this.loginBTN);
             this.Controls.Add(this.pass);
             this.Controls.Add(this.user);
             this.DoubleBuffered = true;
@@ -212,11 +213,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox user;
         private System.Windows.Forms.TextBox pass;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox role;
+        private System.Windows.Forms.Button loginBTN;
+        private System.Windows.Forms.ComboBox role1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -224,6 +223,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox1;
+        public System.Windows.Forms.TextBox user;
     }
 }
 

@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdi\\Desktop\\Som Bank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\loan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\loan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\loan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\loan1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|c:\\users\\abdi\\desktop\\som bank\\som bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\check_balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\check_balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\check_balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\check_balance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\deposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\deposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\deposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\deposite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\update_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\update_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\update_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\update_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\view_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\view_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\view_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\view_acc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\permit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\permit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\permit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\permit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|C:\\Users\\Abdi\\Desktop\\Som Bank\\som bank\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0DC55D-9EDE-4FE4-9233-60FD58C5E433}|Som Bank\\Som Bank.csproj|solutionrelative:som bank\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "new.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\new.cs",
+              "RelativeDocumentMoniker": "Som Bank\\new.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\new.cs [Design]",
+              "RelativeToolTip": "Som Bank\\new.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:09:13.267Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transaction.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transaction.cs",
+              "RelativeToolTip": "Som Bank\\Transaction.cs",
+              "ViewState": "AgIAABsAAACAmZmZmZkVwB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:28:46.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Loans.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loans.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Loans.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loans.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Loans.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:58:06.207Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transfer.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transfer.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Transfer.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transfer.cs",
+              "RelativeToolTip": "Som Bank\\Transfer.cs",
+              "ViewState": "AgIAACoAAAAAzczMzMwrwBsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:14:58.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "loan1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\loan1.cs",
+              "RelativeDocumentMoniker": "Som Bank\\loan1.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\loan1.cs [Design]",
+              "RelativeToolTip": "Som Bank\\loan1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T08:25:57.311Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "loan1.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\loan1.cs",
+              "RelativeDocumentMoniker": "Som Bank\\loan1.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\loan1.cs",
+              "RelativeToolTip": "Som Bank\\loan1.cs",
+              "ViewState": "AgIAAGoAAAAAMjMzMzMLwGMAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:21:01.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Loans.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loans.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Loans.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loans.cs",
+              "RelativeToolTip": "Som Bank\\Loans.cs",
+              "ViewState": "AgIAABgAAABAMzMzMzMwwCwAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:41:43.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Main.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Main.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Main.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T03:46:21.964Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Transfer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transfer.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Transfer.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transfer.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Transfer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:16:44.037Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transaction.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Transaction.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Transaction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:19:43.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Main.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Main.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Main.cs",
+              "RelativeToolTip": "Som Bank\\Main.cs",
+              "ViewState": "AgIAAPAAAAAAmpmZmZkVwPgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:38:57.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "check_balance.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\check_balance.cs",
+              "RelativeDocumentMoniker": "Som Bank\\check_balance.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\check_balance.cs",
+              "RelativeToolTip": "Som Bank\\check_balance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T08:11:07.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "check_balance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\check_balance.cs",
+              "RelativeDocumentMoniker": "Som Bank\\check_balance.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\check_balance.cs [Design]",
+              "RelativeToolTip": "Som Bank\\check_balance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T14:51:10.963Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Deposite.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Deposite.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Deposite.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Deposite.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Deposite.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:20:25.582Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Withdraw.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Withdraw.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Withdraw.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Withdraw.cs",
+              "RelativeToolTip": "Som Bank\\Withdraw.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAIwJMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:39:30.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Form1.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Form1.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Form1.cs",
+              "RelativeToolTip": "Som Bank\\Form1.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:12:37.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Deposite.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Deposite.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Deposite.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Deposite.cs",
+              "RelativeToolTip": "Som Bank\\Deposite.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAIBJwKQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:18:30.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Withdraw.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Withdraw.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Withdraw.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Withdraw.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Withdraw.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:34:37.841Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "update_acc.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\update_acc.cs",
+              "RelativeDocumentMoniker": "Som Bank\\update_acc.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\update_acc.cs",
+              "RelativeToolTip": "Som Bank\\update_acc.cs",
+              "ViewState": "AgIAAEgAAACAZmZmZmYkwF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:31:57.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "update_acc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\update_acc.cs",
+              "RelativeDocumentMoniker": "Som Bank\\update_acc.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\update_acc.cs [Design]",
+              "RelativeToolTip": "Som Bank\\update_acc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T03:25:14.894Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "new.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\new.cs",
+              "RelativeDocumentMoniker": "Som Bank\\new.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\new.cs",
+              "RelativeToolTip": "Som Bank\\new.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:59:36.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "View_acc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\View_acc.cs",
+              "RelativeDocumentMoniker": "Som Bank\\View_acc.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\View_acc.cs [Design]",
+              "RelativeToolTip": "Som Bank\\View_acc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:32:51.532Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "View_acc.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\View_acc.cs",
+              "RelativeDocumentMoniker": "Som Bank\\View_acc.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\View_acc.cs",
+              "RelativeToolTip": "Som Bank\\View_acc.cs",
+              "ViewState": "AgIAACgAAACAMzMzM/MmwBgAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T12:12:26.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Form1.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Form1.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Form1.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:37:25.828Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\admin.cs",
+              "RelativeDocumentMoniker": "Som Bank\\admin.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\admin.cs [Design]",
+              "RelativeToolTip": "Som Bank\\admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:59:12.925Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "users.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\users.cs",
+              "RelativeDocumentMoniker": "Som Bank\\users.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\users.cs",
+              "RelativeToolTip": "Som Bank\\users.cs",
+              "ViewState": "AgIAABcAAAAAMzMzMzMbwCAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T19:00:26.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "admin.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\admin.cs",
+              "RelativeDocumentMoniker": "Som Bank\\admin.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\admin.cs",
+              "RelativeToolTip": "Som Bank\\admin.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:59:28.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "users.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\users.cs",
+              "RelativeDocumentMoniker": "Som Bank\\users.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\users.cs [Design]",
+              "RelativeToolTip": "Som Bank\\users.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:54:47.25Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "permit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\permit.cs",
+              "RelativeDocumentMoniker": "Som Bank\\permit.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\permit.cs [Design]",
+              "RelativeToolTip": "Som Bank\\permit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:56:51.405Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "permit.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\permit.cs",
+              "RelativeDocumentMoniker": "Som Bank\\permit.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\permit.cs",
+              "RelativeToolTip": "Som Bank\\permit.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T19:08:39.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "payments.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\payments.cs",
+              "RelativeDocumentMoniker": "Som Bank\\payments.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\payments.cs [Design]",
+              "RelativeToolTip": "Som Bank\\payments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:33:05.42Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Program.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Program.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Program.cs",
+              "RelativeToolTip": "Som Bank\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T13:47:01.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "payments.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\payments.cs",
+              "RelativeDocumentMoniker": "Som Bank\\payments.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\payments.cs",
+              "RelativeToolTip": "Som Bank\\payments.cs",
+              "ViewState": "AgIAABAAAACAmZmZmZkhwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T06:09:19.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Loading.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loading.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Loading.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loading.cs [Design]",
+              "RelativeToolTip": "Som Bank\\Loading.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:52:32.217Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Loading.cs",
+              "DocumentMoniker": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loading.cs",
+              "RelativeDocumentMoniker": "Som Bank\\Loading.cs",
+              "ToolTip": "C:\\Users\\Abdi\\Desktop\\Som Bank\\Som Bank\\Loading.cs",
+              "RelativeToolTip": "Som Bank\\Loading.cs",
+              "ViewState": "AgIAABIAAAAAzczMzMwhwC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:02:54.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
